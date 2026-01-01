@@ -1,0 +1,112 @@
+/* ------- NAVBAR ------- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #0A2540, #143F6B);
+  color: white;
+  padding: 1rem 2rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.title {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  color: #bfdbfe;
+}
+
+/* Hamburger icon button */
+.menuBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+/* ------- SIDE MENU ------- */
+.sideMenu {
+  position: fixed;
+  top: 66px;
+  right: 0;
+  width: 260px;
+  background: #ffffff;
+  color: #333;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+  border-radius: 6px 0 0 6px;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 50;
+}
+
+.open {
+  transform: translateX(0);
+}
+
+.menuHeader {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menuHeader button {
+  font-size: 20px;
+  color: #666;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menuHeader button:hover {
+  color: #000;
+}
+
+.menuList {
+  list-style: none;
+  padding: 14px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.menuList a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.menuList a:hover {
+  color: #6397ea;
+}
+
+.logout {
+  color: #d03737;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.logout:hover {
+  color: #ff0000;
+}

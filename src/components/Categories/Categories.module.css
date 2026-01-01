@@ -1,0 +1,140 @@
+.container {
+    padding: 20px;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 14px;
+    padding: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h2{
+    font-weight: 500;
+}
+
+.star {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.info {
+    font-size: 14px;
+    color: #666;
+    margin: 6px 0;
+}
+
+.habitList {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.habitItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 0;
+    font-size: 14px;
+}
+
+.deleteIcon {
+    cursor: pointer;
+    color: #999;
+}
+
+.deleteIcon:hover {
+    color: #e53935;
+}
+
+.actions button {
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #f2f2f2;
+}
+
+.modalOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.modalBox {
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.modalSub {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.modalBox input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.modalActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.modalActions button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.modalActions button:last-child {
+    background: #143F6B;
+    color: white;
+}
+
+.health {
+    border-left: 6px solid #4caf50;
+}
+
+.learning {
+    border-left: 6px solid #2196f3;
+}
+
+.productivity {
+    border-left: 6px solid #9c27b0;
+}
+
+.mental {
+    border-left: 6px solid #66c2a5;
+}
+
+.nutrition {
+    border-left: 6px solid #ff9800;
+}

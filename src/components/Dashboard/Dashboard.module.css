@@ -1,0 +1,91 @@
+.container {
+    width: 100%;
+    padding: 2rem 3rem;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.box {
+    background: white;
+    padding: 1.8rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.box {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.gradient {
+    background: linear-gradient(90deg, #0A2540, #143F6B);
+    color: white;
+}
+
+.heading {
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.9;
+}
+
+.bigNumber {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0.4rem;
+}
+
+.subText {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.icon {
+    position: absolute;
+    right: 20px;
+    top: 45px;
+    font-size: 2rem;
+    opacity: 0.6;
+}
+
+@media (max-width: 1024px) {
+    .boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .container {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .boxes {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+
+    .box {
+        padding: 1.5rem;
+    }
+
+    .bigNumber {
+        font-size: 1.8rem;
+    }
+
+    .icon {
+        font-size: 1.7rem;
+        right: 15px;
+    }
+}

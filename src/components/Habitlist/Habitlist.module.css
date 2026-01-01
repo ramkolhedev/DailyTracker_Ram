@@ -1,0 +1,98 @@
+.wrapper {
+    display: flex;
+    gap: 40px;
+    padding: 0 3rem;
+    align-items: flex-start;
+}
+
+.container {
+    flex: 1;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.HabitName span {
+    font-weight: 500;
+}
+
+.heading {
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+
+.add_btn {
+    background: linear-gradient( 135deg, #0A2540, #1F4D8C);
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+}
+
+.add_btn:hover {
+    background: linear-gradient(135deg, #4292e1, #1F4D8C);
+}
+
+.cancelbtn {
+    background-color: #ccc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.addbtn {
+    background: #143F6B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .wrapper {
+        padding: 0 1.5rem;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+        padding: 0 1rem;
+        gap: 25px;
+    }
+
+    .container {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .title {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .add_btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .heading {
+        font-size: 1.25rem;
+    }
+
+    .add_btn {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}
