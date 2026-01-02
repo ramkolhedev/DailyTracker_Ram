@@ -110,3 +110,20 @@
 .logout:hover {
   color: #ff0000;
 }
+
+@media (max-width: 768px) {
+
+  /* Your Habits link hide */
+  .links li:first-child {
+    display: none;
+  }
+
+  /* spacing adjust */
+  .links {
+    gap: 1rem;
+  }
+
+  .title {
+    font-size: 1.4rem;
+  }
+}
