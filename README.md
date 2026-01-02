@@ -32,6 +32,15 @@ https://daily-tracker-ram.vercel.app
 
 ---
 
+## 🚧 Future Improvements
+- 🔐 User Authentication (Login / Signup)
+- ☁️ Cloud Database Integration
+- ⏰ Habit Reminders & Notifications
+- 📈 Weekly & Monthly Reports with Charts
+- 🌗 Dark Mode Support
+
+---
+
 ## 📂 Project Structure
 ```bash
 src/
@@ -49,12 +58,3 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── App.css
-
----
-
-## 🚧 Future Improvements
-- 🔐 User Authentication (Login / Signup)
-- ☁️ Cloud Database Integration
-- ⏰ Habit Reminders & Notifications
-- 📈 Weekly & Monthly Reports with Charts
-- 🌗 Dark Mode Support
